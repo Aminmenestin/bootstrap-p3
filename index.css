@@ -1,0 +1,178 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("fonts/Vazir.eot");
+    src: url("fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+        url("fonts/Vazir.woff2") format("woff2"),
+        url("fonts/Vazir.woff") format("woff"),
+        url("fonts/Vazir.ttf") format("truetype");
+}
+
+body {
+    font-family: "Vazir" !important;
+    background: url(images/bg.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* switch dark mode */
+
+.dark .dark-bg-body-dark {
+    background: url(images/bg-dark.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.lh-0 {
+    line-height: 0;
+}
+
+
+.darkmode-switch {
+    width: 2.5rem !important;
+    height: 1.5rem !important;
+}
+
+
+.dark .dark-text-white {
+    color: white !important;
+}
+
+
+.text-gray {
+    color: #44494e !important;
+}
+
+
+
+
+
+
+/* ityped.js */
+
+.ityped-cursor {
+    font-size: 2.2rem;
+    opacity: 1;
+    -webkit-animation: blink 0.3s infinite;
+    -moz-animation: blink 0.3s infinite;
+    animation: blink 0.3s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+
+
+/* Header */
+
+.header {
+    margin-top: 90px;
+}
+
+
+.header .countdown div {
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    margin: 10px 10px;
+    width: 100px;
+    padding: 15px 0;
+}
+
+@media (max-width:575px) {
+    .header .countdown div {
+        text-align: center;
+        border: 2px solid rgba(255, 255, 255, 0.8);
+        border-radius: 8px;
+        margin: 5px 5px;
+        width: 83px;
+        padding: 10px 0;
+    }
+}
+
+
+
+/* register */
+
+
+.register .social-links a{
+    margin: 0 10px;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    transition: all 0.3s;
+}
+
+
+.register .social-links a:hover{
+    background-color: #0d6efd;
+   border-color: #0d6efd;
+}
+
+
+
+
+/* contact-us */
+
+
+
+.contact-us hr{
+    width: 80px;
+    height: 5px;
+}
+
+
+.contact-us .card{
+    border-top: 4px solid #0d6efd;
+    border-bottom: 4px solid #0d6efd;
+    padding: 30px;
+    border-radius: 0.25rem;
+    background: rgba(255, 255, 255, 0.06);
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
+    height: 100%;
+}
+
+
+.contact-us i{
+    font-size: 20px;
+    color: #fff;
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.contact-us i:hover{
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+
